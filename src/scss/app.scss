@@ -1,5 +1,11 @@
-$rojo: green;
+/*@import 'base';
+@import 'contenido';*/
 
+@use 'base' as b;
+@use 'contenido' as c;
+
+/*
 body{
-    background-color: $rojo;
+    background-color: b.$rojo;
 }
+*/

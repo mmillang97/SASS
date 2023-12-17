@@ -1,0 +1,27 @@
+@use '../base/variables' as v;
+
+header{
+    background-color: v.$morado;
+    padding: 10px;
+    h1{
+        color: v.$blanco;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+
+        a{
+            color: v.$blanco;
+            text-transform: uppercase;
+            font-style: v.$fuente_principal;
+
+            &:hover{
+                font-weight: bold;
+                background-color: v.$verde;
+            }
+        }
+    }
+   
+}
