@@ -1,0 +1,22 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Proyecto con SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmillang97/proyectoSass.git"
+  },
+  "author": "Maria Millan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmillang97/proyectoSass/issues"
+  },
+  "homepage": "https://github.com/mmillang97/proyectoSass#readme",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
