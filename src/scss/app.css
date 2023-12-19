@@ -74,7 +74,8 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -309,26 +310,6 @@ template {
   display: none;
 }
 
-.item {
-  border: 1px solid black;
-  background-color: #4CB8B3;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-}
-
-h1 {
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-h3 {
-  font-size: 10px;
-}
-
 header {
   background-color: #af59db;
   padding: 10px;
@@ -367,6 +348,4 @@ header nav a:hover {
 body{
     background-color: b.$rojo;
 }
-*/
-
-/*# sourceMappingURL=app.css.map */
+*//*# sourceMappingURL=app.css.map */

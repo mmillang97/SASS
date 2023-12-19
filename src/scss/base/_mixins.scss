@@ -1,0 +1,27 @@
+@use '../base/variables' as v;
+
+@mixin color-hover {
+    background-color: v.$verde;
+    font: {
+        weight: bold;
+        
+    }
+}
+
+@mixin size-hover($pixeles){
+    font: { 
+        size: $pixeles;
+    }
+}
+
+@mixin encabezados($tamano) {
+    h1 {
+      font-size: $tamano;
+    }
+    h2 {
+      font-size: $tamano - 10;
+    }
+    h3 {
+      font-size: $tamano - 20;
+    }
+}

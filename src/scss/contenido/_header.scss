@@ -1,4 +1,7 @@
 @use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+@include m.encabezados(30px);
 
 header{
     background-color: v.$morado;
@@ -11,17 +14,27 @@ header{
     nav{
         display: flex;
         justify-content: space-between;
-
         a{
             color: v.$blanco;
             text-transform: uppercase;
             font-style: v.$fuente_principal;
-
             &:hover{
-                font-weight: bold;
-                background-color: v.$verde;
+                @include m.color-hover;
+                @include m.size-hover(30px);
+               /* background-color: v.$verde;
+                font: {
+                    weight: bold;
+                    size:30px;
+                }                */
+                
             }
+          
+        }
+        @media (max-width:768px){
+            flex-direction: column;
         }
     }
    
 }
+
+
